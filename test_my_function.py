@@ -22,4 +22,4 @@ class TestMyFunction(unittest.TestCase):
         result = {"Jon Snow's rating": 0}
         self.assertEqual(my_func(input_data), result)
 
-unittest
+unittest.main()
